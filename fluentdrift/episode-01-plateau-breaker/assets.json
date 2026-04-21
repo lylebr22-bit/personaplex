@@ -1,0 +1,287 @@
+{
+  "episode": {
+    "slug": "episode-01-plateau-breaker",
+    "title_internal": "Why You're Stuck at B1 (And the 3-Min Fix)",
+    "runtime_seconds": 480,
+    "scene_count": 16
+  },
+  "scenes": [
+    {
+      "id": "S01-clock-macro",
+      "start": "00:00",
+      "end": "00:30",
+      "primary_visual": "Macro close-up of analog wall clock, second hand sweeping",
+      "source": {
+        "type": "stock",
+        "sites": ["pexels.com/videos", "pixabay.com/videos"],
+        "search_terms": ["slow motion clock ticking macro", "analog clock second hand close up"]
+      },
+      "ai_prompt": "Macro 4K shot of a vintage wall clock, second hand sweeping slowly, shallow depth of field, warm morning light, cinematic",
+      "overlay_text": "You're stuck at B1/B2. This is why.",
+      "motion": "slow push-in",
+      "audio": "clock tick + voice, music off",
+      "lut": "warm amber, -8% saturation"
+    },
+    {
+      "id": "S02-world-map-data",
+      "start": "00:30",
+      "end": "01:00",
+      "primary_visual": "World map with pulsing amber dots",
+      "source": {
+        "type": "ai_gen",
+        "platforms": ["Runway Gen-4", "Kling 2"]
+      },
+      "ai_prompt": "Dark navy world map, thousands of small amber dots pulsing like heartbeats, 4K, data-vis aesthetic",
+      "overlay_text": "1,500,000,000 learners -> 80% plateau forever",
+      "motion": "dots multiply, 80% grey out, 20% stay gold",
+      "audio": "synth pad enters",
+      "lut": "cool navy base + amber accent"
+    },
+    {
+      "id": "S03-books-collapse",
+      "start": "01:00",
+      "end": "01:30",
+      "primary_visual": "Stack of textbooks collapsing slow-motion, flashcards scattering",
+      "source": {
+        "type": "stock",
+        "sites": ["pexels.com/videos"],
+        "search_terms": ["books falling slow motion", "flashcards scattering", "textbook stack collapse"]
+      },
+      "ai_prompt": "Tower of English grammar books falling in slow motion, flashcards spilling, studio lighting, cinematic, 120fps",
+      "overlay_text": "Mistake #1: You're still studying.",
+      "motion": "slow-mo collapse synced to word 'destroying'",
+      "audio": "paper thud + bass drop",
+      "lut": "cool blue-grey"
+    },
+    {
+      "id": "S04-brains-split",
+      "start": "01:30",
+      "end": "02:00",
+      "primary_visual": "Split-screen brain scan - slow vs fast neural firing",
+      "source": {
+        "type": "stock",
+        "sites": ["videvo.net"],
+        "search_terms": ["neurons firing brain animation 4K", "synapse activity 3D"]
+      },
+      "ai_prompt": "Two glowing brains side by side, left fires slowly in blue, right fires rapidly in gold, dark background, medical 3D render",
+      "overlay_text": "SPEED = FLUENCY",
+      "motion": "left brain slows, right brain accelerates",
+      "audio": "synth pad builds",
+      "lut": "cobalt blue to gold gradient"
+    },
+    {
+      "id": "S05-kitchen-POV",
+      "start": "02:00",
+      "end": "02:30",
+      "primary_visual": "POV empty kitchen at dawn, steam from kettle, phone face-down",
+      "source": {
+        "type": "stock",
+        "sites": ["coverr.co", "pexels.com/videos"],
+        "search_terms": ["morning kitchen POV", "steam kettle sunrise"]
+      },
+      "ai_prompt": "POV first-person morning kitchen, steam rising from kettle, warm sunrise through window, phone face-down, cinematic calm",
+      "overlay_text": "Drill 1: 2-Minute Monologue - daily",
+      "motion": "slow dolly forward",
+      "audio": "ambient kitchen, music fades out at 2:25",
+      "lut": "soft golden hour"
+    },
+    {
+      "id": "S06-interrupt-timer",
+      "start": "02:30",
+      "end": "03:00",
+      "primary_visual": "Full black -> countdown timer",
+      "source": {
+        "type": "motion_graphic",
+        "software": "After Effects"
+      },
+      "ai_prompt": null,
+      "overlay_text": "PAUSE. SPEAK. GO. -> [timer] -> Welcome back.",
+      "motion": "hard cut to black, timer ticks 30 to 0, hard cut to mouth silhouette at 2:55",
+      "audio": "TOTAL SILENCE during timer",
+      "lut": "pure B&W to warm return",
+      "notes": "Do not decorate this scene. Silence is the asset."
+    },
+    {
+      "id": "S07-chunks-lego",
+      "start": "03:00",
+      "end": "03:30",
+      "primary_visual": "LEGO-style blocks snapping into chunks mid-air",
+      "source": {
+        "type": "ai_gen",
+        "platforms": ["Runway Gen-4", "Pika Labs"]
+      },
+      "ai_prompt": "Colorful LEGO-style blocks floating in a dark void, snapping together into groups of 3 to 5, each group glowing when connected, 3D render",
+      "overlay_text": "WORDS [X]   CHUNKS [V]",
+      "motion": "blocks drift alone, groups lock with satisfying snap",
+      "audio": "soft click on each snap",
+      "lut": "deep purple background, neon primaries"
+    },
+    {
+      "id": "S08-chunk-mining-UI",
+      "start": "03:30",
+      "end": "04:00",
+      "primary_visual": "YouTube UI mockup, phrases fly off into notebook icon",
+      "source": {
+        "type": "motion_graphic",
+        "software": "After Effects"
+      },
+      "ai_prompt": "Clean mockup of a YouTube video UI, subtitles at bottom, highlighted phrases animate into a floating notebook on the right, minimalist, 4K",
+      "overlay_text": "Drill 2: Mine 10 chunks / 1 video / day | Day 1 -> Day 30: 300 chunks",
+      "motion": "day counter increments, page-flip",
+      "audio": "page-flip + synth pad",
+      "lut": "clean white UI on dark"
+    },
+    {
+      "id": "S09-interrupt-library",
+      "start": "04:00",
+      "end": "04:30",
+      "primary_visual": "Red flash -> vintage library dolly",
+      "source": {
+        "type": "stock",
+        "sites": ["pexels.com/videos"],
+        "search_terms": ["old library dolly shot", "research paper macro typewriter"]
+      },
+      "ai_prompt": "Cinematic dolly through a vintage Cambridge-style library, dust motes in sunlight, old books, warm amber, 4K",
+      "overlay_text": "GRAMMAR IS SLOWING YOU DOWN -> Cambridge, 2019 - 400 learners - 4x faster",
+      "motion": "record-scratch jolt, single-frame red flash, hard cut to library",
+      "audio": "record scratch + 1s silence + library ambient",
+      "lut": "red alert to warm sepia"
+    },
+    {
+      "id": "S10-passive-montage",
+      "start": "04:30",
+      "end": "05:00",
+      "primary_visual": "Montage - figures from behind with headphones",
+      "source": {
+        "type": "stock",
+        "sites": ["pexels.com/videos"],
+        "search_terms": ["airpods cooking behind shot", "earbuds running treadmill", "netflix subtitles watching TV"]
+      },
+      "ai_prompt": "Montage of anonymized figures from behind with headphones cooking walking cleaning, glowing sound waves near ears, cinematic",
+      "overlay_text": "This doesn't count. [X]",
+      "motion": "fast cuts, 2-3 sec each",
+      "audio": "music crescendos",
+      "lut": "warm domestic tones"
+    },
+    {
+      "id": "S11-brain-regions",
+      "start": "05:00",
+      "end": "05:30",
+      "primary_visual": "Rotating 3D brain with two highlighted regions",
+      "source": {
+        "type": "stock",
+        "sites": ["videvo.net"],
+        "search_terms": ["3D brain rotation medical", "brain region highlight animation"]
+      },
+      "ai_prompt": "Detailed 3D medical rendering of a human brain, two distinct regions glowing in blue and gold, rotating slowly, dark studio background",
+      "overlay_text": "Understand != Speak",
+      "motion": "rotation + region pulse",
+      "audio": "synth pad + subtle heartbeat",
+      "lut": "cool medical blue + gold accent"
+    },
+    {
+      "id": "S12-shadowing-waveforms",
+      "start": "05:30",
+      "end": "06:00",
+      "primary_visual": "Two waveforms mirroring with 1s delay + stopwatch",
+      "source": {
+        "type": "motion_graphic",
+        "software": "After Effects"
+      },
+      "ai_prompt": "Two audio waveforms on dark screen - blue wave plays first, gold wave mirrors 1 second later, clean minimal UI, cinematic",
+      "overlay_text": "Drill 3: 10 min shadowing - daily | [clock] 1-second delay",
+      "motion": "waveforms pulse in time with VO",
+      "audio": "native clip + 1s silence + echo demo",
+      "lut": "dark UI, neon blue/gold"
+    },
+    {
+      "id": "S13-mei-story",
+      "start": "06:00",
+      "end": "06:30",
+      "primary_visual": "Email inbox -> handwritten letter -> calendar flipping 42 pages",
+      "source": {
+        "type": "motion_graphic",
+        "software": "After Effects"
+      },
+      "ai_prompt": "Minimalist email UI on dark screen, subject line fades in, handwritten-style letter unfurls beneath, soft warm lighting, 4K",
+      "overlay_text": "7 years stuck. -> 42 days of the right work. -> C1 - April 2026.",
+      "motion": "letter unfurl, calendar page-flip crescendo",
+      "audio": "soft piano, page-flip rhythm",
+      "lut": "warm cream paper + candlelight"
+    },
+    {
+      "id": "S14-synthesis-cards",
+      "start": "06:30",
+      "end": "07:00",
+      "primary_visual": "Three icon cards - Monologue, Chunk, Shadow",
+      "source": {
+        "type": "motion_graphic",
+        "software": "After Effects"
+      },
+      "ai_prompt": "Three minimalist icon cards on dark background, glassmorphism style, numbers animating, 4K motion graphics",
+      "overlay_text": "2 + 10 + 10 = 22 min/day",
+      "motion": "cards slide from left, numbers count up",
+      "audio": "bright resolving chord",
+      "lut": "high-contrast, hopeful"
+    },
+    {
+      "id": "S15-crowd-aerial",
+      "start": "07:00",
+      "end": "07:30",
+      "primary_visual": "Top-down aerial of silhouettes, 80% grey, 20% gold walking forward",
+      "source": {
+        "type": "ai_gen",
+        "platforms": ["Runway Gen-4", "Sora"]
+      },
+      "ai_prompt": "Top-down shot of hundreds of small human silhouettes, 80% fade to grey and stop moving, 20% glow gold and walk forward, cinematic slow motion",
+      "overlay_text": "Which one are you?",
+      "motion": "grey freeze, gold walk toward camera",
+      "audio": "music peaks",
+      "lut": "desaturated grey + gold"
+    },
+    {
+      "id": "S16-endcard",
+      "start": "07:30",
+      "end": "08:00",
+      "primary_visual": "End card - next video thumbnail + shadowing pack + subscribe",
+      "source": {
+        "type": "motion_graphic",
+        "software": "After Effects"
+      },
+      "ai_prompt": null,
+      "overlay_text": "WATCH NEXT | FREE SHADOWING PACK | SUBSCRIBE",
+      "motion": "thumbnail shake to attract clicks",
+      "audio": "music resolves on final line",
+      "lut": "brand navy + gold",
+      "notes": "Start at 7:45 to give 15s of click zone"
+    }
+  ],
+  "global": {
+    "captions": "hardcoded, Inter Bold, mid-lower third, navy + gold brand colors",
+    "max_static_duration_seconds": 4,
+    "loudness_target_lufs": -16,
+    "voice": {
+      "engine": "ElevenLabs v3 Multilingual",
+      "voice_name": "Brian",
+      "voice_id": "nPczCjzI2devNBz1zQrb",
+      "wpm": 145,
+      "stability": 0.45,
+      "similarity_boost": 0.75,
+      "style": 0.35,
+      "speaker_boost": true
+    },
+    "fonts": {
+      "display": "Anton",
+      "body": "Inter Bold",
+      "mono": "JetBrains Mono"
+    },
+    "colors": {
+      "navy": "#0B1220",
+      "black": "#000000",
+      "gold": "#F5C84C",
+      "red": "#E63946",
+      "cream": "#F5EFE0",
+      "white": "#FFFFFF"
+    }
+  }
+}

@@ -1,0 +1,21 @@
+# Secrets
+.env
+scripts/youtube_client_secret.json
+scripts/youtube_token.json
+
+# Rendered audio (can be regenerated, costs API credits)
+*/audio/
+
+# Downloaded B-roll + working video files
+*/b-roll/
+*/final-cut.mp4
+*/*.mov
+*/*.mp4
+
+# Rendered thumbnails (can be re-exported from thumbnail.html)
+*/thumbnail.png
+*/thumbnail.jpg
+
+# Python cache
+__pycache__/
+*.pyc
