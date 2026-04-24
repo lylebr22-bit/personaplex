@@ -1,0 +1,40 @@
+{
+  "expo": {
+    "name": "FlipCheck",
+    "slug": "flipcheck",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "newArchEnabled": true,
+    "splash": {
+      "resizeMode": "contain",
+      "backgroundColor": "#0b0b0f"
+    },
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.flipcheck.app",
+      "infoPlist": {
+        "NSCameraUsageDescription": "FlipCheck uses the camera to photograph items you want to resell.",
+        "NSPhotoLibraryUsageDescription": "FlipCheck can use photos from your library to appraise items.",
+        "ITSAppUsesNonExemptEncryption": false
+      }
+    },
+    "android": {
+      "package": "com.flipcheck.app",
+      "adaptiveIcon": {
+        "backgroundColor": "#0b0b0f"
+      }
+    },
+    "plugins": [
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "FlipCheck needs camera access to appraise your items."
+        }
+      ]
+    ],
+    "extra": {
+      "apiUrl": "http://localhost:3000"
+    }
+  }
+}
