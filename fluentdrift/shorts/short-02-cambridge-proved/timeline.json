@@ -1,0 +1,133 @@
+{
+  "id": "short-02-cambridge-proved",
+  "title_internal": "Cambridge proved your teacher wrong.",
+  "duration_seconds": 28,
+  "format": "9:16",
+  "resolution": "1080x1920",
+  "fps": 30,
+  "rewatch_engineering": {
+    "loop_trick": "Red flash + record scratch + 'Your teacher lied' frame at 0:00 matches identical red flash + scratch at 0:26-28; loop is invisible",
+    "hidden_detail": "Tiny citation watermark in corner of library scene reads 'Cambridge ESOL, 2019, n=400' - too small to read once, viewers screenshot on watch #2",
+    "punchline_reveal": "Opens 'Your teacher lied' (accusation). Closes 'They just don't know what nobody told them' (empathy). Same words mean different things",
+    "info_density": "4 statistics in 28 seconds (400 learners, 2 years, half/half split, 4x faster) - viewers scrub back to verify",
+    "visual_rhythm": "Kick drum cuts on each word of 'Four. Times. Faster.' Captions punch in on the same beats",
+    "rewatch_target_pct": 38,
+    "avd_target_pct": 115
+  },
+  "voice": {
+    "engine": "ElevenLabs",
+    "voice_id": "nPczCjzI2devNBz1zQrb",
+    "wpm": 175,
+    "stability": 0.40,
+    "similarity_boost": 0.75,
+    "style": 0.55,
+    "use_speaker_boost": true,
+    "max_breath_seconds": 0.12
+  },
+  "beats": [
+    {
+      "time": "00:00",
+      "duration": 1.0,
+      "visual": "Single-frame red flash (#E63946) -> hard cut to dark grade of stack of grammar textbooks",
+      "caption": "YOUR TEACHER LIED",
+      "audio": "RECORD SCRATCH + low rumble",
+      "voice_line": "Your teacher lied.",
+      "sfx": "record_scratch.wav, rumble_low.wav"
+    },
+    {
+      "time": "00:01",
+      "duration": 3.0,
+      "visual": "Slow dolly through vintage Cambridge-style library, dust motes, warm amber light. Hidden citation watermark in bottom-right corner: 'Cambridge ESOL, 2019, n=400' at 8% opacity",
+      "caption": "CAMBRIDGE | 400 LEARNERS | 2 YEARS",
+      "audio": "library ambient enters, soft echo",
+      "voice_line": "Cambridge tracked four hundred English learners for two years.",
+      "sfx": "library_ambient.wav"
+    },
+    {
+      "time": "00:04",
+      "duration": 4.0,
+      "visual": "Split screen: left side - hand circling grammar workbook; right side - silhouette speaking with sound waves",
+      "caption": "GRAMMAR vs SPEAKING",
+      "audio": "subtle synth pad rises",
+      "voice_line": "Half did extra grammar drills. Half did extra speaking practice.",
+      "sfx": "synth_pad_rise.wav"
+    },
+    {
+      "time": "00:08",
+      "duration": 3.0,
+      "visual": "Right side glows GOLD; left side fades to grey. Yellow stat overlay slams in: '4x FASTER'",
+      "caption": "4x FASTER",
+      "audio": "BASS DROP",
+      "voice_line": "The speakers became fluent four times faster.",
+      "sfx": "bass_drop.wav"
+    },
+    {
+      "time": "00:11",
+      "duration": 2.0,
+      "visual": "Big yellow text on black: 'FOUR.' -> 'TIMES.' -> 'FASTER.' Each word is its own cut, kick drum sync",
+      "caption": "FOUR. | TIMES. | FASTER.",
+      "audio": "kick drum x3",
+      "voice_line": "Four. Times. Faster.",
+      "sfx": "kick_drum.wav x3"
+    },
+    {
+      "time": "00:13",
+      "duration": 5.0,
+      "visual": "Animation: open paper map -> a foot stepping next to it. Map remains static; foot keeps walking",
+      "caption": "GRAMMAR is a map. | You don't WALK by reading maps.",
+      "audio": "library ambient returns, soft footsteps",
+      "voice_line": "Grammar is a map. But you don't learn to walk by reading maps.",
+      "sfx": "footsteps_soft.wav"
+    },
+    {
+      "time": "00:18",
+      "duration": 4.0,
+      "visual": "Stopwatch at 20:00 -> swap to silhouette speaking",
+      "caption": "TRADE | 20 min grammar | for | 20 min SPEAKING",
+      "audio": "warm pad enters",
+      "voice_line": "Trade twenty minutes of grammar today for twenty minutes of speaking.",
+      "sfx": "pad_warm.wav"
+    },
+    {
+      "time": "00:22",
+      "duration": 4.0,
+      "visual": "Soft fade to a teacher silhouette holding a textbook. Dim lighting, sympathetic framing",
+      "caption": "Your teacher isn't lying. | They just weren't told.",
+      "audio": "warm pad continues, voice softens",
+      "voice_line": "Your teacher isn't lying. They just don't know what nobody told them.",
+      "sfx": null
+    },
+    {
+      "time": "00:26",
+      "duration": 2.0,
+      "visual": "Single-frame red flash repeats (matches first frame for loop). Yellow text: '4x FASTER'",
+      "caption": "4x FASTER",
+      "audio": "RECORD SCRATCH (matches opening)",
+      "voice_line": "Four times faster.",
+      "sfx": "record_scratch.wav"
+    }
+  ],
+  "captions_style": {
+    "font": "Inter Black",
+    "size_px": 96,
+    "color": "#FFFFFF",
+    "stat_color": "#F5C84C",
+    "stroke_color": "#000000",
+    "stroke_width_px": 8,
+    "position": "center",
+    "animation": "instant pop, no fade, 0.06s scale bump",
+    "max_words_per_card": 3
+  },
+  "color_grade": {
+    "lut": "vintage sepia for library scenes, red-shift for flash frames",
+    "saturation_pct": -15,
+    "contrast_pct": 20,
+    "vignette": true
+  },
+  "audio_master_lufs": -14,
+  "compliance": {
+    "ai_voice_disclosure": "toggle 'Altered or synthetic content' at upload",
+    "originality": "original script using publicly cited 2019 Cambridge ESOL meta-study; framing and angle are original",
+    "citation_in_video": "watermark in bottom-right of library scene"
+  }
+}

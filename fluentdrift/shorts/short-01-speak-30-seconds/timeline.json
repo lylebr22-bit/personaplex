@@ -1,0 +1,113 @@
+{
+  "id": "short-01-speak-30-seconds",
+  "title_internal": "Speak English for 30 seconds. Right now.",
+  "duration_seconds": 35,
+  "format": "9:16",
+  "resolution": "1080x1920",
+  "fps": 30,
+  "rewatch_engineering": {
+    "loop_trick": "Stopwatch reads 00:30 in first frame and final frame; viewer doesn't notice loop kicked in",
+    "hidden_detail": "Faint wall clock visible in background reflection of stopwatch glass - only readable on watch #2",
+    "punchline_reveal": "Opens with 'Bet you can't' (challenge framing). Closes with 'That stumble is the muscle' (failure reframed as progress)",
+    "info_density": "Three nested instructions in 7 seconds - viewers pause to re-process",
+    "visual_rhythm": "Caption pops sync to stopwatch tick (1.0s intervals)",
+    "rewatch_target_pct": 35,
+    "avd_target_pct": 110
+  },
+  "voice": {
+    "engine": "ElevenLabs",
+    "voice_id": "nPczCjzI2devNBz1zQrb",
+    "wpm": 165,
+    "stability": 0.40,
+    "similarity_boost": 0.75,
+    "style": 0.50,
+    "use_speaker_boost": true,
+    "max_breath_seconds": 0.15
+  },
+  "beats": [
+    {
+      "time": "00:00",
+      "duration": 1.0,
+      "visual": "Extreme macro: stopwatch face, hand on 00:30, dramatic lighting",
+      "caption": "Bet you can't.",
+      "audio": "sharp TICK on word 'can't'",
+      "voice_line": "Bet you can't.",
+      "sfx": "tick_sharp.wav"
+    },
+    {
+      "time": "00:01",
+      "duration": 3.0,
+      "visual": "POV pan around a room - couch, lamp, mug, plant - quick whip transitions",
+      "caption": "Look around. | Pick THREE.",
+      "audio": "whip-pan whoosh on each transition",
+      "voice_line": "Look around the room. Right now. Pick three objects.",
+      "sfx": "whoosh_short.wav x3"
+    },
+    {
+      "time": "00:04",
+      "duration": 3.0,
+      "visual": "Tight close-up on lips silhouette, gold rim-light",
+      "caption": "Describe them. | Out loud. | English. | 30 seconds.",
+      "audio": "low piano note holds under voice",
+      "voice_line": "Describe them out loud. In English. Thirty seconds.",
+      "sfx": "piano_low_C.wav"
+    },
+    {
+      "time": "00:07",
+      "duration": 1.0,
+      "visual": "Stopwatch zooms back in, finger hovering over start button",
+      "caption": "GO",
+      "audio": "BUTTON CLICK + start beep",
+      "voice_line": "Go.",
+      "sfx": "button_click.wav, timer_start.wav"
+    },
+    {
+      "time": "00:08",
+      "duration": 22.0,
+      "visual": "Stopwatch face, second hand sweeping 30 -> 0. Cut every 3-4s to a different room object (couch, lamp, mug, window, plant, book, cup, chair). Faint reflection of WALL CLOCK in stopwatch glass - hidden detail.",
+      "caption": "[live timer overlay top-right: 00:30 down to 00:00]",
+      "audio": "stopwatch ticking 1Hz, faint kitchen ambient",
+      "voice_line": null,
+      "sfx": "stopwatch_tick_loop.wav, kitchen_ambient.wav"
+    },
+    {
+      "time": "00:30",
+      "duration": 3.0,
+      "visual": "Stopwatch hits 00:00, single soft DING, screen fades to black",
+      "caption": "If you stumbled. | Good.",
+      "audio": "single soft chime + voice",
+      "voice_line": "If you stumbled. Good.",
+      "sfx": "soft_chime.wav"
+    },
+    {
+      "time": "00:33",
+      "duration": 2.0,
+      "visual": "Black screen. White text fades up: 'That stumble is the muscle that becomes fluency.' Then quick flash back to stopwatch at 00:30 (matches first frame for loop trick)",
+      "caption": "That stumble | is the muscle | that becomes | FLUENCY.",
+      "audio": "low piano resolves on final word",
+      "voice_line": "That stumble is the muscle that becomes fluency.",
+      "sfx": "piano_resolve.wav"
+    }
+  ],
+  "captions_style": {
+    "font": "Inter Black",
+    "size_px": 92,
+    "color": "#FFFFFF",
+    "stroke_color": "#000000",
+    "stroke_width_px": 8,
+    "position": "center",
+    "animation": "instant pop in (no fade), 0.08s scale bump on entry",
+    "max_words_per_card": 2
+  },
+  "color_grade": {
+    "lut": "warm amber 2026",
+    "saturation_pct": -10,
+    "contrast_pct": 15,
+    "vignette": true
+  },
+  "audio_master_lufs": -14,
+  "compliance": {
+    "ai_voice_disclosure": "toggle 'Altered or synthetic content' at upload",
+    "originality": "original script, original framing, derived from FluentDrift Episode 1"
+  }
+}

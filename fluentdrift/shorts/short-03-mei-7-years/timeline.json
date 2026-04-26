@@ -1,0 +1,152 @@
+{
+  "id": "short-03-mei-7-years",
+  "title_internal": "She was stuck for 7 years. Then 42 days.",
+  "duration_seconds": 40,
+  "format": "9:16",
+  "resolution": "1080x1920",
+  "fps": 30,
+  "rewatch_engineering": {
+    "loop_trick": "Letter unfurls in opening frames; folds back into identical shape in closing frames. Visual loop is seamless",
+    "hidden_detail": "Faint date stamp on the letter reads 'Dec 14, 2018' (the day Mei started). Only readable when paused on watch #2. Reveals that 7 years was Dec 2018 to current date",
+    "punchline_reveal": "Opens with 'stuck for seven years' (sympathy/sadness). Closes with 'difference was what she did with the time' (agency/hope). Same word 'time' carries opposite emotional weight",
+    "info_density": "Lists 4 failed methods + 3 drills + 2 numbers (22 min, 42 days) + 1 result (C1 exam) in 40 seconds. Viewers loop to extract the routine",
+    "visual_rhythm": "Calendar page flips on the beat, accelerating from 1Hz to 2Hz to mirror Mei's progress",
+    "rewatch_target_pct": 32,
+    "avd_target_pct": 105
+  },
+  "voice": {
+    "engine": "ElevenLabs",
+    "voice_id": "nPczCjzI2devNBz1zQrb",
+    "wpm": 155,
+    "stability": 0.50,
+    "similarity_boost": 0.80,
+    "style": 0.40,
+    "use_speaker_boost": true,
+    "max_breath_seconds": 0.20
+  },
+  "beats": [
+    {
+      "time": "00:00",
+      "duration": 3.0,
+      "visual": "Cream paper unfurls into a handwritten letter on dark background. Date stamp 'Dec 14, 2018' faintly visible bottom-right (8% opacity, 14px - hidden detail)",
+      "caption": "Mei was stuck for 7 YEARS",
+      "audio": "paper unfurl + soft piano enters",
+      "voice_line": "Mei was stuck for seven years.",
+      "sfx": "paper_unfurl.wav, piano_soft.wav"
+    },
+    {
+      "time": "00:03",
+      "duration": 3.0,
+      "visual": "Calendar pages flipping at 1Hz, sun rising and setting through window in background",
+      "caption": "Every day. | Every single day.",
+      "audio": "page flip rhythm",
+      "voice_line": "She studied English every day. Every single day.",
+      "sfx": "page_flip.wav loop"
+    },
+    {
+      "time": "00:06",
+      "duration": 4.0,
+      "visual": "Quick cut montage on the beat: stack of books -> phone with app -> Zoom tutor screen -> red-X test paper",
+      "caption": "Books. | Apps. | Tutors. | Tests.",
+      "audio": "kick drum on each cut",
+      "voice_line": "Books. Apps. Tutors. Tests. Nothing worked.",
+      "sfx": "kick_drum.wav x4"
+    },
+    {
+      "time": "00:10",
+      "duration": 2.0,
+      "visual": "All sound stops. Single black frame. White text appears: 'Then she stopped.'",
+      "caption": "Then she stopped.",
+      "audio": "SUDDEN SILENCE except sustained piano note",
+      "voice_line": "Then she stopped.",
+      "sfx": "piano_sustain.wav"
+    },
+    {
+      "time": "00:12",
+      "duration": 4.0,
+      "visual": "Letter fades back in. Calendar flips faster (1.5Hz). Three icons fade in below text",
+      "caption": "She STOPPED studying. | Started 3 DRILLS.",
+      "audio": "page flip accelerates",
+      "voice_line": "She stopped studying. And started doing three drills.",
+      "sfx": "page_flip_fast.wav"
+    },
+    {
+      "time": "00:16",
+      "duration": 5.0,
+      "visual": "Three icons enlarge in sequence: speaking silhouette -> notebook with highlighted phrases -> waveform with 1s delay",
+      "caption": "1. MONOLOGUE | 2. CHUNK MINING | 3. SHADOWING",
+      "audio": "soft chime on each icon",
+      "voice_line": "Two-minute monologue. Chunk mining. One-second shadowing.",
+      "sfx": "chime_soft.wav x3"
+    },
+    {
+      "time": "00:21",
+      "duration": 4.0,
+      "visual": "Stopwatch shows 22:00. Calendar pages blur-flip rapidly. Text overlay: '22 MIN' / '42 DAYS'",
+      "caption": "22 MIN/DAY | 42 DAYS TOTAL",
+      "audio": "clock ticks + page flip crescendo",
+      "voice_line": "Twenty-two minutes a day. Forty-two days total.",
+      "sfx": "clock_tick_loop.wav"
+    },
+    {
+      "time": "00:25",
+      "duration": 4.0,
+      "visual": "Hands holding a certificate stamped 'C1 - PASSED'. Warm light",
+      "caption": "She passed C1.",
+      "audio": "single warm chime + piano lifts",
+      "voice_line": "She just passed her C1 speaking exam.",
+      "sfx": "chime_warm.wav, piano_lift.wav"
+    },
+    {
+      "time": "00:29",
+      "duration": 4.0,
+      "visual": "Side-by-side: '7 YEARS' (grey, struck through) vs '42 DAYS' (gold, glowing)",
+      "caption": "7 YEARS  vs  42 DAYS",
+      "audio": "piano resolves slowly",
+      "voice_line": "Seven years. Forty-two days. The difference wasn't time.",
+      "sfx": "piano_resolve.wav"
+    },
+    {
+      "time": "00:33",
+      "duration": 4.0,
+      "visual": "Letter visible again, fully unfurled. Pen writing the words 'what you do with it'",
+      "caption": "The difference was | what she did | WITH the time.",
+      "audio": "soft piano holds",
+      "voice_line": "The difference was what she did with the time.",
+      "sfx": null
+    },
+    {
+      "time": "00:37",
+      "duration": 3.0,
+      "visual": "Letter folds back into its closed shape (matches the opening visual for loop trick). Text fades over: 'Then she wasn't.'",
+      "caption": "Stuck for 7 years. | Then she wasn't.",
+      "audio": "paper folding sound + piano final note",
+      "voice_line": "Mei was stuck for seven years. Then she wasn't.",
+      "sfx": "paper_fold.wav, piano_final.wav"
+    }
+  ],
+  "captions_style": {
+    "font": "Inter Bold",
+    "size_px": 88,
+    "color": "#FFFFFF",
+    "stat_color": "#F5C84C",
+    "stroke_color": "#0B1220",
+    "stroke_width_px": 6,
+    "position": "lower-third",
+    "background": "subtle cream paper texture at 15% opacity behind text",
+    "animation": "soft fade-in over 0.15s (gentler than other shorts to match storytelling tone)",
+    "max_words_per_card": 4
+  },
+  "color_grade": {
+    "lut": "warm cream + candlelight",
+    "saturation_pct": -5,
+    "contrast_pct": 10,
+    "vignette": true
+  },
+  "audio_master_lufs": -14,
+  "compliance": {
+    "ai_voice_disclosure": "toggle 'Altered or synthetic content' at upload",
+    "originality": "story is composite based on real listener feedback patterns; original framing, original drills, original conclusion",
+    "name_disclaimer": "Mei's name is anonymized; story illustrates the channel's core method"
+  }
+}
