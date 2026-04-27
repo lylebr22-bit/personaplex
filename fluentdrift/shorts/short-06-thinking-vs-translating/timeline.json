@@ -1,0 +1,134 @@
+{
+  "id": "short-06-thinking-vs-translating",
+  "title_internal": "Stop translating. Start picturing. (Diego's story)",
+  "duration_seconds": 38,
+  "format": "9:16",
+  "resolution": "1080x1920",
+  "fps": 30,
+  "rewatch_engineering": {
+    "loop_trick": "Handwritten letter unfurls in first 3 seconds; folds back into identical closed shape in final 3 seconds",
+    "hidden_detail": "Date stamp on the letter reads 'Day 14 - first quiet day'. Only readable on a paused watch #2. Reframes the entire story",
+    "punchline_reveal": "Opens 'translated every English sentence' (loud, frustrated). Closes 'volume of his mind turned down' (silent, calm). Same brain, opposite state",
+    "info_density": "6 years failed methods + 3 drills + total time + result + emotional payoff in 38s",
+    "visual_rhythm": "Calendar flips on the beat, accelerating from 1Hz to 2Hz as the protocol works",
+    "rewatch_target_pct": 33,
+    "avd_target_pct": 106
+  },
+  "voice": {
+    "engine": "ElevenLabs",
+    "voice_id": "nPczCjzI2devNBz1zQrb",
+    "wpm": 155,
+    "stability": 0.50,
+    "similarity_boost": 0.80,
+    "style": 0.40,
+    "use_speaker_boost": true,
+    "max_breath_seconds": 0.20
+  },
+  "beats": [
+    {
+      "time": "00:00",
+      "duration": 3.0,
+      "visual": "Cream paper unfurls into handwritten letter on dark background. Date stamp 'Day 14 - first quiet day' faintly visible bottom-right (8% opacity)",
+      "caption": "Diego translated | every sentence. | 6 YEARS.",
+      "audio": "paper unfurl + soft piano enters",
+      "voice_line": "Diego translated every English sentence for six years.",
+      "sfx": "paper_unfurl.wav, piano_soft.wav"
+    },
+    {
+      "time": "00:03",
+      "duration": 4.0,
+      "visual": "Quick montage on the beat: app icons / Zoom tutor / red-X test / meditation cushion",
+      "caption": "Apps. | Tutors. | Tests. | Meditation.",
+      "audio": "kick drum x4",
+      "voice_line": "Apps. Tutors. Tests. Meditation. Nothing stopped his brain from doing it.",
+      "sfx": "kick_drum.wav x4"
+    },
+    {
+      "time": "00:07",
+      "duration": 3.0,
+      "visual": "All cuts stop. Black frame with text fading in: 'Then he tried something different.'",
+      "caption": "Then he tried | something DIFFERENT.",
+      "audio": "SUDDEN SILENCE except sustained piano",
+      "voice_line": "Then he tried something different.",
+      "sfx": "piano_sustain.wav"
+    },
+    {
+      "time": "00:10",
+      "duration": 4.0,
+      "visual": "Stopwatch shows 03:00. Three icons appear below: eye / hand / brain-image",
+      "caption": "3 MIN/DAY | 3 DRILLS",
+      "audio": "soft chime on each icon",
+      "voice_line": "Three minutes a day. Three simple drills.",
+      "sfx": "chime_soft.wav x3"
+    },
+    {
+      "time": "00:14",
+      "duration": 7.0,
+      "visual": "Three quick scenes: POV naming objects in room / POV walking + verbs labeling / split screen English text replaced by image",
+      "caption": "1. NAME | 2. NARRATE | 3. PICTURE",
+      "audio": "footsteps + label chime + synth lift",
+      "voice_line": "Name every object he saw. Narrate every action he did. Picture every sentence he heard.",
+      "sfx": "footsteps_soft.wav, chime_label.wav x3"
+    },
+    {
+      "time": "00:21",
+      "duration": 4.0,
+      "visual": "Stopwatch counts to 42:00. Calendar pages blur-flip 14 days",
+      "caption": "42 MIN | 14 DAYS",
+      "audio": "page flip crescendo",
+      "voice_line": "Total time. Forty-two minutes. Spread over fourteen days.",
+      "sfx": "page_flip_crescendo.wav"
+    },
+    {
+      "time": "00:25",
+      "duration": 5.0,
+      "visual": "Two figures in conversation, soft golden light. Diego's thought bubble shows IMAGES instead of text",
+      "caption": "DAY 15: | first conversation. | NO translating.",
+      "audio": "warm pad rises",
+      "voice_line": "On day fifteen, he had his first conversation in English without translating a single word.",
+      "sfx": "pad_warm.wav"
+    },
+    {
+      "time": "00:30",
+      "duration": 4.0,
+      "visual": "Volume meter in corner of screen drops slowly to silence. Soft piano holds",
+      "caption": "Volume of his mind | TURNED DOWN.",
+      "audio": "piano resolves slowly",
+      "voice_line": "He said it felt like the volume of his mind turned down.",
+      "sfx": "piano_resolve.wav"
+    },
+    {
+      "time": "00:34",
+      "duration": 4.0,
+      "visual": "Letter folds back into closed shape (matches opening). Final text overlay",
+      "caption": "6 YEARS  vs  42 MIN | The METHOD won.",
+      "audio": "paper folding + final piano note",
+      "voice_line": "Six years. Forty-two minutes. The difference was the method.",
+      "sfx": "paper_fold.wav, piano_final.wav"
+    }
+  ],
+  "captions_style": {
+    "font": "Inter Bold",
+    "size_px": 86,
+    "color": "#FFFFFF",
+    "stat_color": "#F5C84C",
+    "stroke_color": "#0B1220",
+    "stroke_width_px": 6,
+    "position": "lower-third",
+    "background": "subtle cream paper texture at 12% opacity",
+    "animation": "soft fade-in 0.15s",
+    "max_words_per_card": 4
+  },
+  "color_grade": {
+    "lut": "warm cream + candlelight",
+    "saturation_pct": -5,
+    "contrast_pct": 10,
+    "vignette": true
+  },
+  "audio_master_lufs": -14,
+  "compliance": {
+    "ai_voice_disclosure": "toggle 'Altered or synthetic content' at upload",
+    "originality": "story is composite based on listener feedback patterns. Diego is anonymized. Method and protocol are original",
+    "name_disclaimer": "Diego is a representative composite name; the protocol and outcomes are accurate to listener reports"
+  }
+}

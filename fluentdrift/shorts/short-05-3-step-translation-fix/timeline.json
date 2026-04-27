@@ -1,0 +1,123 @@
+{
+  "id": "short-05-3-step-translation-fix",
+  "title_internal": "3 steps to stop translating in your head",
+  "duration_seconds": 35,
+  "format": "9:16",
+  "resolution": "1080x1920",
+  "fps": 30,
+  "rewatch_engineering": {
+    "loop_trick": "Three-icon row (eye/hand/brain) appears in the same composition at 0:02 and 0:33; the loop wraps cleanly",
+    "hidden_detail": "Tiny stopwatch in upper-right counts 00:00 -> 03:00 across the whole Short - mirrors the actual drill duration. Viewers spot it on watch #2 and feel like the Short itself was the drill",
+    "punchline_reveal": "Opens 'Your brain is broken'. Closes 'Your brain isn't broken. It just needs new wiring.' Same brain, opposite verdict",
+    "info_density": "3 drills + frequency + duration + result + scientific framing in 35s. Viewers scrub back to extract the protocol",
+    "visual_rhythm": "Each drill name lands on a kick drum. Caption pops on the same beat",
+    "rewatch_target_pct": 34,
+    "avd_target_pct": 108
+  },
+  "voice": {
+    "engine": "ElevenLabs",
+    "voice_id": "nPczCjzI2devNBz1zQrb",
+    "wpm": 165,
+    "stability": 0.45,
+    "similarity_boost": 0.78,
+    "style": 0.45,
+    "use_speaker_boost": true,
+    "max_breath_seconds": 0.15
+  },
+  "beats": [
+    {
+      "time": "00:00",
+      "duration": 2.0,
+      "visual": "Animated brain glitching - text fragments scatter. Hidden stopwatch in upper-right reads 00:00",
+      "caption": "Your brain is BROKEN.",
+      "audio": "glitch SFX + low rumble",
+      "voice_line": "Your English brain is broken. Three minutes a day fixes it.",
+      "sfx": "glitch.wav, rumble_low.wav"
+    },
+    {
+      "time": "00:02",
+      "duration": 3.0,
+      "visual": "Three icons slide in from left: eye, hand, brain-with-image. Sticky bar at bottom: '3 drills | 1 min each | 14 days'",
+      "caption": "3 DRILLS | 1 MIN EACH | 14 DAYS",
+      "audio": "kick drum x3 on icon entrances",
+      "voice_line": "Three drills. One minute each. Fourteen days.",
+      "sfx": "kick_drum.wav x3"
+    },
+    {
+      "time": "00:05",
+      "duration": 6.0,
+      "visual": "POV walking through room; objects highlighted with English label as they're named (cup, lamp, book, plant)",
+      "caption": "STEP 1 | OBJECT NAMING",
+      "audio": "soft footsteps, label chime on each highlight",
+      "voice_line": "Step one. Object Naming. Walk through a room. Name every object out loud. In English. Just the noun.",
+      "sfx": "footsteps_soft.wav, chime_label.wav x4"
+    },
+    {
+      "time": "00:11",
+      "duration": 6.0,
+      "visual": "POV cooking + walking + brushing teeth quick montage; verb labels appear ('cooking', 'walking', 'brushing')",
+      "caption": "STEP 2 | VERB MAPPING",
+      "audio": "ambient kitchen + street + bathroom quick cuts",
+      "voice_line": "Step two. Verb Mapping. Walking, cooking, brushing. Narrate the action in present tense. Out loud. In English.",
+      "sfx": "ambient_montage.wav"
+    },
+    {
+      "time": "00:17",
+      "duration": 8.0,
+      "visual": "Two side-by-side panels: left shows English text being translated to native language (slow, frustrated). Right shows same English being pictured as an image (fast, calm)",
+      "caption": "STEP 3 | IMAGE REPLACEMENT",
+      "audio": "synth pad rises",
+      "voice_line": "Step three. Image Replacement. When someone speaks to you, do not translate. Picture what they said.",
+      "sfx": "pad_rise.wav"
+    },
+    {
+      "time": "00:25",
+      "duration": 5.0,
+      "visual": "Stopwatch hits 03:00. Calendar pages blur 14 days. Brain animation stops glitching, stabilizes, starts glowing gold",
+      "caption": "3 MIN/DAY | 14 DAYS | DONE",
+      "audio": "warm chime + page flip crescendo",
+      "voice_line": "Three minutes a day. Fourteen days. Translation habit dies.",
+      "sfx": "chime_warm.wav, page_flip_crescendo.wav"
+    },
+    {
+      "time": "00:30",
+      "duration": 3.0,
+      "visual": "Brain in full gold glow, stable",
+      "caption": "Your brain isn't BROKEN. | It needs NEW wiring.",
+      "audio": "low piano resolves",
+      "voice_line": "Your brain isn't broken. It just needs new wiring.",
+      "sfx": "piano_resolve.wav"
+    },
+    {
+      "time": "00:33",
+      "duration": 2.0,
+      "visual": "Three icons return to the same composition as 0:02 (loop trick). Hidden stopwatch reads 03:00",
+      "caption": "3 MIN. 14 DAYS.",
+      "audio": "kick drum x3 (matches opening)",
+      "voice_line": "Three minutes. Fourteen days.",
+      "sfx": "kick_drum.wav x3"
+    }
+  ],
+  "captions_style": {
+    "font": "Inter Black",
+    "size_px": 90,
+    "color": "#FFFFFF",
+    "stat_color": "#F5C84C",
+    "stroke_color": "#000000",
+    "stroke_width_px": 8,
+    "position": "center",
+    "animation": "instant pop",
+    "max_words_per_card": 4
+  },
+  "color_grade": {
+    "lut": "cool blue to gold transition",
+    "saturation_pct": -8,
+    "contrast_pct": 16,
+    "vignette": true
+  },
+  "audio_master_lufs": -14,
+  "compliance": {
+    "ai_voice_disclosure": "toggle 'Altered or synthetic content' at upload",
+    "originality": "original 3-step protocol; image replacement step is original framing built on cognitive linguistics literature"
+  }
+}

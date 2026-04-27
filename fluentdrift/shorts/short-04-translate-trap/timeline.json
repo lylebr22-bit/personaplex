@@ -1,0 +1,132 @@
+{
+  "id": "short-04-translate-trap",
+  "title_internal": "The translation trap (you do this every conversation)",
+  "duration_seconds": 30,
+  "format": "9:16",
+  "resolution": "1080x1920",
+  "fps": 30,
+  "rewatch_engineering": {
+    "loop_trick": "Stopwatch reads 00:00 in first frame and final frame; hard cut wraps invisibly",
+    "hidden_detail": "A digital clock in the background increments in milliseconds throughout, counting from 000 to 002000. Only readable on a paused watch #2. Tells the viewer the lag is happening in real time.",
+    "punchline_reveal": "Opens 'You do this every conversation' (accusation). Closes 'Until you stop' (agency). Same words, opposite emotional weight",
+    "info_density": "Three layers of math (300ms x N sentences = 2 min lag) plus 3 fix names in 30s. Viewers loop to extract the routine",
+    "visual_rhythm": "Ticks on every '300ms' beat. Three kick drums on the 3 fix names",
+    "rewatch_target_pct": 36,
+    "avd_target_pct": 112
+  },
+  "voice": {
+    "engine": "ElevenLabs",
+    "voice_id": "nPczCjzI2devNBz1zQrb",
+    "wpm": 170,
+    "stability": 0.40,
+    "similarity_boost": 0.75,
+    "style": 0.50,
+    "use_speaker_boost": true,
+    "max_breath_seconds": 0.13
+  },
+  "beats": [
+    {
+      "time": "00:00",
+      "duration": 1.0,
+      "visual": "Tight macro of a stopwatch reading 00:00. Single sharp tick. Background blur shows a digital ms counter at 000 (hidden detail starts here)",
+      "caption": "YOU DO THIS",
+      "audio": "single sharp TICK",
+      "voice_line": "You do this every conversation.",
+      "sfx": "tick_sharp.wav"
+    },
+    {
+      "time": "00:01",
+      "duration": 4.0,
+      "visual": "Animated brain receiving sound waves; a delay bar fills 300ms in the middle of the brain",
+      "caption": "300ms | LAG",
+      "audio": "low pulse on each ms increment",
+      "voice_line": "When someone speaks English to you, your brain takes three hundred milliseconds to translate.",
+      "sfx": "pulse_low.wav loop"
+    },
+    {
+      "time": "00:05",
+      "duration": 3.0,
+      "visual": "Calculator widget on screen, 300 typed in",
+      "caption": "INVISIBLE | until math",
+      "audio": "typing taps",
+      "voice_line": "That's invisible. Until you do the math.",
+      "sfx": "type_taps.wav"
+    },
+    {
+      "time": "00:08",
+      "duration": 5.0,
+      "visual": "Calculator multiplies 300 x 400 sentences = 120,000ms = 2 minutes",
+      "caption": "300ms x 400 = | 2 MIN LAG",
+      "audio": "calculator beeps escalating",
+      "voice_line": "Three hundred milliseconds times every sentence in a five-minute chat equals two minutes of lag.",
+      "sfx": "beep_escalate.wav"
+    },
+    {
+      "time": "00:13",
+      "duration": 3.0,
+      "visual": "Two figures in conversation; one's thought bubble shows '...slow' / '...stupid'",
+      "caption": "They think SLOW. | You think STUPID.",
+      "audio": "low rumble",
+      "voice_line": "Two minutes where natives think you're slow. You think you're stupid.",
+      "sfx": "rumble_low.wav"
+    },
+    {
+      "time": "00:16",
+      "duration": 3.0,
+      "visual": "Both thought bubbles burst. Big text fills frame: 'NEITHER.'",
+      "caption": "NEITHER. | You're TRANSLATING.",
+      "audio": "bubble pop",
+      "voice_line": "You're neither. You're translating.",
+      "sfx": "pop.wav"
+    },
+    {
+      "time": "00:19",
+      "duration": 5.0,
+      "visual": "Stopwatch resets and counts up to 03:00. Calendar shows 14 days flipping",
+      "caption": "3 MIN/DAY | 14 DAYS",
+      "audio": "page flip x14, building",
+      "voice_line": "Three-minute daily drill kills it in fourteen days.",
+      "sfx": "page_flip_loop.wav"
+    },
+    {
+      "time": "00:24",
+      "duration": 4.0,
+      "visual": "Three icons appear on the beat: eye / hand / brain with image",
+      "caption": "OBJECT | VERB | IMAGE",
+      "audio": "kick drum x3",
+      "voice_line": "Object naming. Verb mapping. Image replacement.",
+      "sfx": "kick_drum.wav x3"
+    },
+    {
+      "time": "00:28",
+      "duration": 2.0,
+      "visual": "Cut back to opening stopwatch at 00:00 (loop). Text: 'Until you stop.'",
+      "caption": "Until you stop.",
+      "audio": "single sharp TICK (matches opening)",
+      "voice_line": "You do this every conversation. Until you stop.",
+      "sfx": "tick_sharp.wav"
+    }
+  ],
+  "captions_style": {
+    "font": "Inter Black",
+    "size_px": 92,
+    "color": "#FFFFFF",
+    "stat_color": "#F5C84C",
+    "stroke_color": "#000000",
+    "stroke_width_px": 8,
+    "position": "center",
+    "animation": "instant pop",
+    "max_words_per_card": 3
+  },
+  "color_grade": {
+    "lut": "navy + cool steel",
+    "saturation_pct": -10,
+    "contrast_pct": 18,
+    "vignette": true
+  },
+  "audio_master_lufs": -14,
+  "compliance": {
+    "ai_voice_disclosure": "toggle 'Altered or synthetic content' at upload",
+    "originality": "original framing of cognitive translation lag; math is original calculation"
+  }
+}
